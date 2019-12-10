@@ -1,0 +1,20 @@
+1.UpdateSerializedSignal-315-added false
+
+2.CalculateSerializedSignalBitLengthUCTest-
+calculateBitLengthForSwcOperationAndSignal
+added 4 places false
+490
+542
+618
+650
+3.swcViewer
+loadDataToCalculateSerializedSignalBitlLength-5388
+netDefinition.appendAtBidi(Signal.class, Signal.CALLINGSWCOPERATIONS);
+
+
+4.SaveSomeIpServiceEditorCommand
+   268-  final CalculateSerializedSignalBitLengthResultContainer calculateSerializedSignalBitLengthResultContainer = TOReaderFactory
+                        .getTOReader().calculateBitLengthForSwcOperationAndSignal(swcOperation, signal);268-
+
+
+--cloneTOWithImplicitTOs is TOUtils method which is used for deep cloning.
